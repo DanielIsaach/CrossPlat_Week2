@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "reset-project": "rimraf node_modules && npm install"
   },
   "dependencies": {
     "expo": "~52.0.36",
